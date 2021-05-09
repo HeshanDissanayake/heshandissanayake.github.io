@@ -1,5 +1,6 @@
 .project_holder{
     display: flex;
+    
     flex-direction: column;
 }
 
@@ -17,10 +18,13 @@
 }
 
 .project_card:hover{
-    margin:10px;
-    margin-top: 20px;
     
-    transition-duration: 500ms;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+    transition-duration: 2000ms;
 }
 
 body h1{
@@ -30,7 +34,29 @@ body h1{
 }
 
 .descript{
+    padding: 20px;
+    padding-left: 50px;;
+}
 
+.descript p{
+    font-size:4vh;
+}
+
+.descript p+p{
+    font-size:2vh;
+}
+
+.descript p+p+label{
+    color:rgb(38, 46, 46);
+    font-size: 2vh;
+}
+
+.descript i{
+    font-size: 5vh;
+}
+
+.descript i:hover{
+    color: red;
 }
 
 .proj_img{
