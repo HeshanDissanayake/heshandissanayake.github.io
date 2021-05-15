@@ -6,22 +6,20 @@
 .project_card{
     display:grid;
     grid-template-columns: 70% 30%;
-    height: 40vh;
+    height: 35vh;
     margin:3vw;
     margin-top: 1vh;
       
     overflow: hidden;
     background: rgb(199, 195, 195);
-    border-radius: 4vh;
+    border-radius: 8vh;
 }
 
 .project_card:hover{
     
     margin-right: 1vw;
     margin-left: 1vw;
-    
     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-    
     transition-duration: 500ms;
 }
 
@@ -50,7 +48,7 @@ body h1{
 }
 
 .descript i{
-    font-size: 5vh;
+    font-size: 3vw;
 }
 
 .descript i:hover{
@@ -58,5 +56,24 @@ body h1{
 }
 
 .proj_img{
+    
     height: 100%;
+}
+
+
+.technologies{
+    display:grid;
+    grid-template-columns: auto 20%;
+    padding:0.6vw;
+    border-radius:5vw;
+    align-items: center;
+    background-color:rgb(255, 255, 255);
+    
+}
+.technologies div{
+    
+}
+
+.tec_img{
+    height:2vw;
 }
