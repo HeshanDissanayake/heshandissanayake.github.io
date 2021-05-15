@@ -9,6 +9,7 @@
     height: 35vh;
     margin:3vw;
     margin-top: 1vh;
+    margin-bottom: 1vh;
       
     overflow: hidden;
     background: rgba(255, 255, 255, 0.8);
@@ -18,11 +19,13 @@
 
 .project_card:hover{
     
-    margin-right: 1vw;
-    margin-left: 1vw;
+    /* margin-right: 1vw;
+    margin-left: 1vw; */
+    background: rgba(255, 255, 255, 1);
     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     transition-duration: 500ms;
 }
+
 
 body h1{
     margin-top:6vh;
@@ -31,25 +34,39 @@ body h1{
 }
 
 .descript{
-    padding: 2vw;
-    padding-left: 5vw;
+    padding: 2vh;
+    padding-left: 3vw;
+}
+
+.descript p+div{
+    height: 11vh;
+    width: 60vw;
 }
 
 .descript p{
     font-size:4vh;
 }
 
-.descript p+p{
-    font-size:2vh;
+.descript div p{
+    font-size:1.1vw;
 }
 
 
 .descript i{
+    margin-left:1vw;
     font-size: 3vw;
 }
 
 .descript i:hover{
-    color: red;
+    color: rgb(0, 255, 149);
+}
+
+.descript i+i:hover{
+    color: rgb(184, 9, 9);
+}
+
+.descript i+i+i:hover{
+    color: rgb(9, 120, 184);
 }
 
 .proj_img{
@@ -60,17 +77,20 @@ body h1{
 
 .technologies{
     display:grid;
-    grid-template-columns: auto 20%;
+    height:8vh;
+    grid-template-columns: auto 25%;
     padding:0.6vw;
     border-radius:5vw;
+    border-top-right-radius:1vw;
+    border-bottom-right-radius:1vw;
+    margin-top: 4vh;
     align-items: center;
-    background-color:rgb(255, 255, 255);
-    
-}
-.technologies div{
+    background-color:rgb(224, 234, 236);
     
 }
 
+
 .tec_img{
     height:2vw;
+    margin-left: 0.6vw;
 }
