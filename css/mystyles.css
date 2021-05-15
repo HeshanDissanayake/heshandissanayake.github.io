@@ -11,8 +11,9 @@
     margin-top: 1vh;
       
     overflow: hidden;
-    background: rgb(199, 195, 195);
-    border-radius: 8vh;
+    background: rgba(199, 195, 195, 0.5);
+    border-radius: 5vw;
+    color: rgb(0, 0, 0);
 }
 
 .project_card:hover{
@@ -30,7 +31,7 @@ body h1{
 }
 
 .descript{
-    padding: 3vw;
+    padding: 2vw;
     padding-left: 5vw;
 }
 
@@ -42,10 +43,6 @@ body h1{
     font-size:2vh;
 }
 
-.descript p+p+label{
-    color:rgb(38, 46, 46);
-    font-size: 2vh;
-}
 
 .descript i{
     font-size: 3vw;

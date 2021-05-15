@@ -60,6 +60,7 @@ body {
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
+    background: url(../img/back2.jpg) no-repeat center top;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -111,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/back.jpg) no-repeat center top;
+	/* background: url(../img/back2.jpg) no-repeat center top; */
 	margin-top: -70px;
 	padding-top: 150px;
   padding-left: 0px;
