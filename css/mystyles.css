@@ -118,3 +118,19 @@
     width: 12px;
     border-radius: 10px;
 }
+
+.CV{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin-left: 76vw;
+    height:50px;
+    width: 140px;
+    color:antiquewhite;
+    background:rgb(9, 120, 184);
+    border-radius: 10px;
+}
+
+.CV label{
+
+}
