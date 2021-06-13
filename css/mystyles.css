@@ -129,8 +129,11 @@
     color:antiquewhite;
     background:rgb(9, 120, 184);
     border-radius: 10px;
+    border: 3px solid rgb(26, 126, 184);
+    transition-duration: 300ms;
 }
 
-.CV label{
-
+.CV:hover{
+    background:rgb(9, 120, 184);
+    border: 3px solid rgb(93, 194, 224);
 }
