@@ -137,3 +137,28 @@
     background:rgb(9, 120, 184);
     border: 3px solid rgb(93, 194, 224);
 }
+
+#mainIcon {
+    color:rgb(37, 41, 40);
+    font-size:50px;
+    animation: start_anim 2s cubic-bezier(0.075, 0.82, 0.165, 1) ;
+}
+
+#mainIcon:hover{
+    
+    animation: start_anim 2s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
+   }
+
+@keyframes start_anim {
+    0%, 15%, 25%, 100% {
+        color:rgb(37, 41, 40);
+        
+    }
+
+
+    20%, 30%, 50% {
+        color:rgb(0, 163, 149);
+    }
+}
+
+
